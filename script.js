@@ -1,7 +1,6 @@
 const textInput = document.querySelector(".container input");
 const tryButton = document.querySelector(".container button");
 const computerAnswer = Math.floor(Math.random()*20) + 1;
-console.log(computerAnswer)
 
 tryButton.addEventListener("click", tryGuess);
 

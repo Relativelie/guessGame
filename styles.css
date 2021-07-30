@@ -53,3 +53,21 @@ body {
     background-color: #7111b1;
     box-shadow: 0 0 10px rgb(238, 222, 133);
 }
+
+@media all and (max-width: 1100px) {
+    .container {
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        width: 55%;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .container {
+        width: 85%;
+    }
+}
