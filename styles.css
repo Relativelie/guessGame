@@ -1,0 +1,55 @@
+
+body {
+    background-image: url("backgroundImage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    min-height: 100vh;
+    background-color: #185ADB;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 30%;
+    padding: 10px;
+    margin-top: 150px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container h1, .container h2 {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container input {
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+.container button {
+    background-color: #185ADB;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 1s;
+    width: 20%;
+}
+
+.container button:hover {
+    background-color: #7111b1;
+    box-shadow: 0 0 10px rgb(238, 222, 133);
+}
